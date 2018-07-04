@@ -12,19 +12,19 @@
       position: absolute;
       width: 100%;
       height: 100%;
-        background-image: -moz-linear-gradient( 0deg, rgb(9,5,47) 0%, rgb(49,29,94) 100%);
-        background-image: -webkit-linear-gradient( 0deg, rgb(9,5,47) 0%, rgb(49,29,94) 100%);
-        background-image: -ms-linear-gradient( 0deg, rgb(9,5,47) 0%, rgb(49,29,94) 100%);
-        opacity: 0.851;
-        position: absolute;
-        z-index: 0;
+      background-image: -moz-linear-gradient( 0deg, rgb(9,5,47) 0%, rgb(49,29,94) 100%);
+      background-image: -webkit-linear-gradient( 0deg, rgb(9,5,47) 0%, rgb(49,29,94) 100%);
+      background-image: -ms-linear-gradient( 0deg, rgb(9,5,47) 0%, rgb(49,29,94) 100%);
+      opacity: 0.851;
+      position: absolute;
+      z-index: 0;
   }
  .header {
-     display: flex;
-     justify-content: space-between;
-     width: 90%;
-     position: relative;
-     z-index: 3;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    z-index: 3;
  }
  .navbar {
      width: 50%;
@@ -39,18 +39,18 @@
     text-decoration: none;
 }
 .navbar-link:hover {
-background-color: #00e0d0;
+    background-color: #00e0d0;
 }
 .main-text h1 {
-        font-size: 32px;
-        font-family: "PlayfairDisplay";
-        color: rgb(255, 255, 255);
+    font-size: 32px;
+    font-family: "PlayfairDisplay";
+    color: rgb(255, 255, 255);
       }  
  .main-text p {
     color: #FFF;
-        font-size: 14px;
-        font-family: "Roboto";
-        color: rgb(255, 255, 255);
+    font-size: 14px;
+    font-family: "Roboto";
+    color: rgb(255, 255, 255);
       }
       
 .main-text {
@@ -59,5 +59,12 @@ background-color: #00e0d0;
     z-index: 2;
 }
 .main-button {
-
+    border: solid 2px red;
+    text-align: center;
+}
+.butt {
+    position: relative;
+}
+.logo {
+    margin: 10px;
 }

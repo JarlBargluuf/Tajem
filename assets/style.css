@@ -4,7 +4,7 @@
     flex-direction: column;
     justify-content: space-between;
     height: 100%;
-    background: url(img/background.png) no-repeat center;
+    background: url(./img/background.png) no-repeat center;
     background-size: cover;
     position: relative;
     min-height: 700px;
@@ -147,7 +147,7 @@
 height: 100%;
 width: 100%;
 min-height: 600px;
-background: url(img/background2.png) no-repeat center;
+background: url(./img/background2.png) no-repeat center;
 background-size: 100%;
 }
 .watch-overlay {
@@ -226,7 +226,7 @@ background-size: 100%;
         color: rgb(65, 61, 75);
         line-height: 1.2;
         text-align: center;
-        margin-left: 170px;
+        margin-left: 120px;
  }
  .expertise-blocks-top-one-text {
         font-size: 18px;
@@ -234,7 +234,7 @@ background-size: 100%;
         color: rgba(51, 51, 51, 0.749);
         line-height: 1.571;
         text-align: center;
-        margin-left: 170px;
+        margin-left: 120px;
  }
  .expertise-blocks-top-two-title {
     font-size: 20px;
@@ -258,7 +258,7 @@ background-size: 100%;
     color: rgb(65, 61, 75);
     line-height: 1.2;
     text-align: center;
-    margin-left: -800px;
+    margin-left: -760px;
 }
 .expertise-blocks-top-three-text {
     font-size: 18px;
@@ -266,16 +266,16 @@ background-size: 100%;
     color: rgba(51, 51, 51, 0.749);
     line-height: 1.571;
     text-align: center;
-    margin-left: -800px;
+    margin-left: -760px;
 }
  .expertise-blocks-top-one-image {
-     margin-left: 335px;
+     margin-left: 280px;
  }
  .expertise-blocks-top-two-image {
     margin-left: -290px;
  }
  .expertise-blocks-top-three-image {
-    margin-left: -415px;
+    margin-left: -395px;
  }
     
       

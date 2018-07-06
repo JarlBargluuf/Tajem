@@ -722,26 +722,219 @@ li {
     margin-bottom: 50px;
 }
 
-.ourworks-button {
+.ourworks-button a{
+    text-decoration: none;
     font-size: 16px;
     font-family: "HammersmithOne";
     color: rgb(0, 224, 208);
     line-height: 1.2;
     text-align: center;
-    width: 85px;
-    height: 10px;
     z-index: 168;
     margin-left: 945px;
-    margin-bottom: 50px;
     border-width: 1px;
     border-color: rgb(0, 224, 208);
     border-style: solid;
     border-radius: 2px;
+}
+
+.comments {
+    margin-top: 50px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    min-height: 600px;
+    background: url(./img/background4.png) no-repeat center;
+    background-size: 100%;
+}
+
+.comments-overlay {
+    background-color: rgb(49,29,94);
+    opacity: 0.851;
+    width: 100%;
+    height: 100%;
+    position: absolute; 
+}
+
+.comments-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.comments-kavichki {
+    font-size: 90px;
+    font-family: "PlayfairDisplay";
+    color: rgba(255, 255, 255, 0.902);
+    line-height: 0.22;
+    z-index: 159;       
+    margin-bottom: 150px;
+}
+
+.comments-text  {
+    font-size: 22px;
+    font-family: "PlayfairDisplay";
+    color: rgba(255, 255, 255, 0.851);
+    line-height: 1.625;
+    text-align: center;
     position: absolute;
-    width: 138px;
-    height: 20px;
-    z-index: 167;
-       
-          
-      }
-      
+    width: 1000px;
+    height: 130px;
+    z-index: 158;
+    padding-top: 150px;
+}
+
+.comments-author {
+    font-size: 16px;
+    font-family: "Roboto";
+    color: rgb(255, 255, 255);
+    line-height: 1.571;
+    text-align: center;
+    position: absolute;
+    width: 200px;
+    height: 10px;
+    z-index: 160;
+    padding-top: 310px;
+}
+
+.comments-job {
+        font-size: 14px;
+        font-family: "Roboto";
+        color: rgba(255, 255, 255, 0.702);
+        line-height: 1.692;
+        text-align: center;
+        width: 120px;
+        height: 9px;
+        z-index: 160;
+        position: absolute;
+        margin-top: 360px;
+        
+}
+
+.comments-images {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    z-index: 160;
+    padding: 50px;
+}
+
+.comments-image-one {
+padding-right: 20px;
+}
+
+.comments-image-two {
+    padding-right: 20px;
+}
+
+.comments-image-three {
+  
+}
+
+.comments-image-four {
+    padding-left: 20px;
+}
+
+.comments-image-five {
+    padding-left: 20px;
+}
+
+.feedback {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.feedback-text {
+        font-size: 20px;
+        font-family: "PlayfairDisplay";
+        color: rgb(65, 61, 75);
+        font-weight: bold;
+        line-height: 1.2;
+        text-align: left;
+        position: absolute;
+        z-index: 109;
+        margin-left: 330px;
+        margin-top: 100px;
+}
+
+.feedback-form {
+    margin-left: 340px;
+     margin-top: 200px;
+}
+
+.feedback-form-one {
+    border-width: 1px;
+    border-color: rgb(0, 0, 0);
+    border-style: solid;
+    opacity: 0.102;
+    position: absolute;
+    width: 458px;
+    height: 43px;
+    z-index: 105;
+    }
+
+.feedback-form-two {
+    border-width: 1px;
+    border-color: rgb(0, 0, 0);
+    border-style: solid;
+    opacity: 0.102;
+    position: absolute;
+    width: 458px;
+    height: 43px;
+    z-index: 105;
+    margin-top: 70px;
+}
+
+.feedback-form-three {
+    border-width: 1px;
+    border-color: rgb(0, 0, 0);
+    border-style: solid;
+    opacity: 0.102;
+    position: absolute;
+    width: 458px;
+    height: 43px;
+    z-index: 105;
+    margin-top: 140px;
+}
+
+.feedback-form-four {
+    border-width: 1px;
+    border-color: rgb(0, 0, 0);
+    border-style: solid;
+    opacity: 0.102;
+    position: absolute;
+    width: 458px;
+    height: 43px;
+    z-index: 105;
+    margin-top: 210px;
+}
+
+.feedback-button {
+    font-size: 16px;
+    font-family: "HammersmithOne";
+    color: rgb(0, 224, 208);
+    line-height: 1.2;
+    text-align: center;
+    position: absolute;
+    z-index: 89;
+    margin-top: 300px;
+    text-decoration: none;
+    border: #00e0d0 1px solid;
+}
+
+.form_input {
+    width: 100%;
+	height: 45px;
+	border: 1px solid #000000;
+	opacity: 0.1;
+	margin-bottom:23px;
+	opacity: 0.5;
+	font-family: Roboto;
+	font-size: 14px;
+	font-weight: 300;
+	padding:20px;
+	box-sizing:border-box;
+	outline:none;
+}
